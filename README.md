@@ -66,3 +66,6 @@ Tipos de dato:
 
 ## Diagrama Físico: normalizando Platziblog
 ![diagrama_fisicoNormalizando](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626549986/Academia-Java.-CDMX/Fundamentos-Base-Datos/Normalizacion_lj1way.png)
+
+## RDB ¿Qué?
+**RDBMS** significa Relational Database Management System o sistema manejador de bases de datos relacionales. Es un programa que se encarga de seguir las reglas de Codd y se puede utilizar de manera programática.
