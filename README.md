@@ -63,3 +63,6 @@ Tipos de dato:
 - **Segunda forma normal (2FN):** Cumple 1FN y cada campo de la tabla debe depender de una clave única.
 - **Tercera forma normal (3FN):** Cumple 1FN y 2FN y los campos que NO son clave, NO deben tener dependencias.
 - **Cuarta forma normal (4FN):** Cumple 1FN, 2FN, 3FN y los campos multivaluados se identifican por una clave única.
+
+## Diagrama Físico: normalizando Platziblog
+![diagrama_fisicoNormalizando](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626549986/Academia-Java.-CDMX/Fundamentos-Base-Datos/Normalizacion_lj1way.png)
