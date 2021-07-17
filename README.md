@@ -69,3 +69,62 @@ Tipos de dato:
 
 ## RDB ¿Qué?
 **RDBMS** significa Relational Database Management System o sistema manejador de bases de datos relacionales. Es un programa que se encarga de seguir las reglas de Codd y se puede utilizar de manera programática.
+
+## SQL
+**SQL** significa ``Structured Query Language`` y tiene una estructura clara y fija. Su objetivo es hacer un solo lenguaje para consultar cualquier manejador de bases de datos volviéndose un gran estándar.
+
+Ahora existe el **NOSQL** o ``Not Only Structured Query Language`` que significa que no sólo se utiliza SQLen las bases de datos no relacionales.
+
+## DDL create
+**SQL** tiene dos grandes sublenguajes:
+**DDL** o Data Definition Language que nos ayuda a crear la estructura de una base de datos. Existen 3 grandes comandos:
+
+- ``Create:`` Nos ayuda a crear bases de datos, tablas, vistas,índices, etc.
+- ``Alter:`` Ayuda a alterar o modificar entidades.
+``Drop:`` Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
+
+3 objetos que manipularemos con el lenguaje **DDL**:
+
+- Database o bases de datos
+- Table o tablas. Son la traducción a SQL de las entidades
+- View o vistas: Se ofrece la proyección de los datos de la base de datos de forma entendible.
+
+## CREATE VIEW y DDL ALTER
+<pre>
+    <code>
+    //Create view
+        USE `blog`;
+        CREATE  OR REPLACE VIEW `new_view` AS
+        SELECT * FROM blog.people;</code>
+</pre>
+
+<pre>
+    <code>
+    //Alter table
+       ALTER TABLE `blog`.`people` 
+       ADD COLUMN `date_of_birth` DATETIME NULL AFTER `city`;</code>
+</pre>
+
+![alter_table](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626563322/Academia-Java.-CDMX/Fundamentos-Base-Datos/alter_yqdnyc.png)
+
+<pre>
+    <code>
+    //Alter table drop
+       ALTER TABLE `blog`.`people` 
+       DROP COLUMN `date_of_birth`;</code>
+</pre>
+
+## DDL DROP
+
+<pre>
+    //Drop table
+    <code>DROP TABLE `blog`.`people`;</code>
+</pre>
+
+<pre>
+    //Drop database
+    <code>DROP DATABASE `blog`;</code>
+</pre>
+
+
+
