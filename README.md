@@ -22,3 +22,16 @@ Entidades fuertes: son entidades que pueden sobrevivir por sí solas.
 
 - ``Identidades débiles por identidad``: no se diferencian entre sí más que por la clave de su identidad fuerte.
 Identidades débiles por existencia: se les asigna una clave propia.
+
+## Relaciones
+**Las relaciones** nos permiten ligar o unir nuestras diferentes entidades y se representan con rombos. Por convención se definen a través de verbos.
+
+Las relaciones tienen una propiedad llamada cardinalidad y tiene que ver con números. Cuántos de un lado pertenecen a cuántos del otro lado:
+
+``Cardinalidad: 1 a 1``
+``Cardinalidad: 0 a 1``
+``Cardinalidad: 1 a N``
+``Cardinalidad: 0 a N``
+
+## Diagrama ER Proyecto Blog
+![diagrama_er](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626544622/Academia-Java.-CDMX/Fundamentos-Base-Datos/diagrama_ER_ubpybs.png)
