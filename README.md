@@ -145,4 +145,66 @@ Ahora existe el **NOSQL** o ``Not Only Structured Query Language`` que significa
     <code>DROP DATABASE `blog`;</code>
 </pre>
 
+## DML
 
+**DML** trata del contenido de la base de datos. Son las siglas de Data Manipulation Language y sus comandos son:
+
+- ``Insert:`` Inserta o agrega nuevos registros a la tabla.
+- ``Update:`` Actualiza o modifica los datos que ya existen.
+- ``Delete:`` Esta sentencia es riesgosa porque puede borrar el contenido de una tabla.
+- ``Select:`` Trae información de la base de datos.
+
+### INSERT
+<pre>
+    <code>
+    INSERT INTO people(last_name, first_name, address, city)
+    VALUES ('Flores', 'Luis', 'D. Conocido', 'Acapulco');
+    </code>
+</pre>
+
+### UPDATE
+<pre>
+    <code>
+    UPDATE people SET last_name = 'Ramirez', city = 'Merida' WHERE person_id = 1;
+    </code>
+</pre>
+
+### DELETE 
+<pre>
+    <code>
+    //Condicionado
+    DELETE FROM people WHERE id_person = 1;
+    </code>
+</pre>
+
+<pre>
+    <code>
+    //Borrar todo el contenido
+    DELETE FROM people;
+    </code>
+</pre>
+
+### SELECT
+
+<pre>
+    <code>
+    //Seleccionar todo el contenido
+    SELECT * FROM people;
+    </code>
+</pre>
+![select_all](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626565854/Academia-Java.-CDMX/Fundamentos-Base-Datos/select_all_iovwst.png)
+
+<pre>
+    <code>
+    //Seleccionar condicionalmente
+    SELECT last_name, first_name FROM people;
+    </code>
+</pre>
+![select_withName](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626565857/Academia-Java.-CDMX/Fundamentos-Base-Datos/select_with_name_pcif21.png)
+<pre>
+    <code>
+    //Seleccionar especidificamente
+    SELECT last_name, first_name FROM people;
+    </code>
+</pre>
+![select_conditional](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626565854/Academia-Java.-CDMX/Fundamentos-Base-Datos/select_conditional_ujjekp.png)
