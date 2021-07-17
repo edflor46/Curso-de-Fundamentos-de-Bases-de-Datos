@@ -88,6 +88,25 @@ Ahora existe el **NOSQL** o ``Not Only Structured Query Language`` que significa
 - Database o bases de datos
 - Table o tablas. Son la traducción a SQL de las entidades
 - View o vistas: Se ofrece la proyección de los datos de la base de datos de forma entendible.
+<pre>
+    <code>
+    //Create Database
+    CREATE SCHEMA `blog` DEFAULT CHARACTER SET utf8 ;</code>
+</pre>
+
+<pre>
+    <code>
+    //Create Table
+      CREATE TABLE `test`.`people` (
+     `id_person` INT NOT NULL AUTO_INCREMENT,
+     `las_name` VARCHAR(45) NULL,
+     `first_name` VARCHAR(45) NULL,
+     `address` VARCHAR(45) NULL,
+     `city` VARCHAR(45) NULL,
+     PRIMARY KEY (`id_person`))
+   ENGINE = InnoDB
+   DEFAULT CHARACTER SET = utf8;</code>
+</pre>
 
 ## CREATE VIEW y DDL ALTER
 <pre>
@@ -125,6 +144,5 @@ Ahora existe el **NOSQL** o ``Not Only Structured Query Language`` que significa
     //Drop database
     <code>DROP DATABASE `blog`;</code>
 </pre>
-
 
 
