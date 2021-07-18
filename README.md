@@ -991,3 +991,6 @@ Es un gran movimiento que consiste en el uso de diferentes tipos de bases de dat
 ## Data Warehouse
 ``Data Warehouse`` trata de guardar cantidades masivas de datos para la posteridad. Allí se guarda todo lo que no está viviendo en la aplicación pero es necesario tenerlo.
 Debe servir para guardar datos por un largo periodo de tiempo y estos datos se deben poder usar para poder encontrar cuestiones interesantes para el negocio.
+
+## Data Mining
+El ``Data Mining`` se dedica a minar datos, a extraerlos de donde sea que estén (archivos muertos, base de datos actual, etc…) y hacer sentido de ellos para darles un uso.
