@@ -976,3 +976,14 @@ Tipos de datos en Firestore:
 - ``Geopoint:`` Guarda una localización geográfica (coordenadas latitud-longitud).
 
 - ``Reference:`` Permite referencia un documento (relaciona dos documentos, no importa su colección).
+
+
+## Colecciones vs subcolecciones
+La particularidad de las top level collections es que existen en el primer nivel de manera intrínseca. Las subcolecciones ya no vivirán al inicio de la base de datos.
+
+Si tienes una entidad separada que vas a referenciar desde muchos lugares es recomendado usar un top level collection. Por el otro lado si se necesita hacer algo intrínseco al documento es aconsejable usar subcolecciones.
+
+
+## Big Data
+**Big Data** es un concepto que nace de la necesidad de manejar grandes cantidades de datos. La tendencia comenzó con compañías como YouTube al tener la necesidad de guardar y consultar mucha información de manera rápida.
+Es un gran movimiento que consiste en el uso de diferentes tipos de bases de datos.
