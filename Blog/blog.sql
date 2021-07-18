@@ -124,3 +124,12 @@ INSERT INTO `usuarios` (`id`,`login`,`password`,`nickname`,`email`) VALUES
 (3,'laura','LKDJ)_*(-c.M:\"[pOwHDˆåßƒ∂','Lau','laura@platziblog.com'),
 (4,'edgar','LLiy)CX*Y:M<A<SC_(*N>O','Ed','edgar@platziblog.com'),
 (5,'perezoso','&N_*JS)_Y)*(&TGOKS','Oso Pérez','perezoso@platziblog.com');
+
+  /*INSERT CATEGORIAS*/
+INSERT INTO `categorias` (`id`,`categoria`) VALUES 
+(1,'Ciencia'),
+(2,'Tecnología'),
+(3,'Deportes'),
+(4,'Espectáculos'),
+(5,'Economía');
+

@@ -383,3 +383,18 @@ INSERT INTO `usuarios` (`id`,`login`,`password`,`nickname`,`email`) VALUES
 (5,'perezoso','&N_*JS)_Y)*(&TGOKS','Oso Pérez','perezoso@platziblog.com');
     </code>
 </pre>
+
+## INSERT categorias
+
+<pre>
+    <code>
+          /*INSERT CATEGORIAS*/
+INSERT INTO `categorias` (`id`,`categoria`) VALUES 
+(1,'Ciencia'),
+(2,'Tecnología'),
+(3,'Deportes'),
+(4,'Espectáculos'),
+(5,'Economía');
+    </code>
+</pre>
+
