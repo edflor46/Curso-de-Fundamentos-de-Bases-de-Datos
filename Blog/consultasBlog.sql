@@ -68,4 +68,8 @@ WHERE	usuario_id IS NULL;
 /*Group BY*/
 SELECT estatus, count(*) post_quantity FROM posts GROUP BY estatus;
     
+/*oder BY*/
+SELECT * FROM posts ORDER BY fecha_publicacion;
+
+SELECT * FROM posts ORDER BY usuario_id ASC LIMIT 5;
 

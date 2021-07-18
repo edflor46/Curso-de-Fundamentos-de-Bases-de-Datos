@@ -748,7 +748,7 @@ UNION
 
 </pre>
 
-![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582281/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_1_hwsxe9.png)
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582281/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_1_hwsxe9.png)
 
 ### Cuando es existe la palabra ``escandalo``
 <pre>
@@ -759,7 +759,7 @@ UNION
 
 </pre>
 
-![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582279/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_2_chs94e.png)
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582279/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_2_chs94e.png)
 
 ### Cuando el year sea el medio de 2023 y 2324
 <pre>
@@ -770,7 +770,7 @@ UNION
 
 </pre>
 
-![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582280/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_3_ducai0.png)
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582280/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_3_ducai0.png)
 
 ## Group By
 GROUP BY tiene que ver con agrupación. Indica a la base de datos qué criterios debe tener en cuenta para agrupar.
@@ -783,6 +783,36 @@ SELECT estatus, count(*) post_quantity FROM posts GROUP BY estatus;
 
 </pre>
 
-![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626583478/Academia-Java.-CDMX/Fundamentos-Base-Datos/group_by_lhmff8.png)
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626583478/Academia-Java.-CDMX/Fundamentos-Base-Datos/group_by_lhmff8.png)
+
+## ORDER BY
+La sentencia ``ORDER BY`` tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+- ``ASC`` sirve para ordenar de forma ascendente.
+
+- ``DES``C sirve para ordenar de forma descendente.
+
+- ``LIM``IT se usa para limitar la cantidad de resultados que arroja el query.
+
+``HAVING`` tiene una similitud muy grande con ``WHERE``, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con HAVING.
 
 
+<pre>
+
+    <code>
+    SELECT * FROM posts ORDER BY fecha_publicacion;
+    </code>
+
+</pre>
+
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626583895/Academia-Java.-CDMX/Fundamentos-Base-Datos/order_xxb8y3.png)
+
+<pre>
+
+    <code>
+    SELECT * FROM posts ORDER BY usuario_id ASC LIMIT 5;
+    </code>
+
+</pre>
+
+![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626584134/Academia-Java.-CDMX/Fundamentos-Base-Datos/order_2_zpepwt.png)
