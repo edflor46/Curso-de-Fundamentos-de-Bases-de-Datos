@@ -2,7 +2,7 @@
 
 ## Historia de las RBD
 
-**Las bases de datos** surgen de la necesidad de conservar la información más allá de lo que existe en la memoria ` `RAM` `.
+**Las bases de datos** surgen de la necesidad de conservar la información más allá de lo que existe en la memoria ``RAM``.
 
 **Las bases de datos** basadas en archivos eran datos guardados en texto plano, fáciles de guardar pero muy difíciles de consultar y por la necesidad de mejorar esto nacen **las bases de datos** relacionales. Su inventor ` `Edgar Codd` ` dejó ciertas reglas para asegurarse de que toda la filosofía de **las bases de datos** no se perdiera, estandarizando el proceso. 
 
@@ -30,10 +30,10 @@ Identidades débiles por existencia: se les asigna una clave propia.
 
 Las relaciones tienen una propiedad llamada cardinalidad y tiene que ver con números. Cuántos de un lado pertenecen a cuántos del otro lado:
 
-` `Cardinalidad: 1 a 1` `
-` `Cardinalidad: 0 a 1` `
-` `Cardinalidad: 1 a N` `
-` `Cardinalidad: 0 a N` `
+``Cardinalidad: 1 a 1``
+``Cardinalidad: 0 a 1``
+``Cardinalidad: 1 a N``
+``Cardinalidad: 0 a N``
 
 ## Diagrama ER Proyecto Blog
 
@@ -45,10 +45,10 @@ Para llevar a la práctica un diagrama debemos ir más allá y darle detalle con
 
 Tipos de dato:
 
- - **Texto:** ` `CHAR(n)`  `, `  `VARCHAR(n)`  `, `  `TEXT` `
- - **Números:** ` `INTEGER`  `, `  `BIGINT`  `, `  `SMALLINT`  `, `  `DECIMAL(n, s)`  `, `  `NUMERIC(n, s)` `
- - **Fecha/hora:** ` `DATE`  `, `  `TIME`  `, `  `DATETIME`  `, `  `TIMESTAMP` `
- - **Lógicos:** ` `BOOLEAN` `
+ - **Texto:** ``CHAR(n)``, ``VARCHAR(n)``, ``TEXT``
+ - **Números:** ``INTEGER``, ``BIGINT``, ``SMALLINT``, ``DECIMAL(n, s)``, ``NUMERIC(n, s)``
+ - **Fecha/hora:** ``DATE``, ``TIME``, ``DATETIME``, ``TIMESTAMP``
+ - **Lógicos:** ``BOOLEAN``
  - **Constraints** (Restricciones)
 
 * **NOT NULL:** Se asegura que la columna no tenga valores nulos
@@ -78,9 +78,9 @@ Tipos de dato:
 
 ## SQL
 
-**SQL** significa ` `Structured Query Language` ` y tiene una estructura clara y fija. Su objetivo es hacer un solo lenguaje para consultar cualquier manejador de bases de datos volviéndose un gran estándar.
+**SQL** significa ``Structured Query Language``  y tiene una estructura clara y fija. Su objetivo es hacer un solo lenguaje para consultar cualquier manejador de bases de datos volviéndose un gran estándar.
 
-Ahora existe el **NOSQL** o ` `Not Only Structured Query Language` ` que significa que no sólo se utiliza SQLen las bases de datos no relacionales.
+Ahora existe el **NOSQL** o ``Not Only Structured Query Language`` que significa que no sólo se utiliza SQLen las bases de datos no relacionales.
 
 ## DDL create
 
@@ -89,7 +89,7 @@ Ahora existe el **NOSQL** o ` `Not Only Structured Query Language` ` que signifi
 
 * ``Create:`` Nos ayuda a crear bases de datos, tablas, vistas, índices, etc.
 * ``Alter:`` Ayuda a alterar o modificar entidades.
-` `Drop:` ` Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
+``Drop:`` Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
 
 3 objetos que manipularemos con el lenguaje **DDL**:
 
@@ -461,7 +461,7 @@ ADD CONSTRAINT `postsetiquetas_etiquetas`
 
 Los **queries** son la forma en la que estructuramos las preguntas que se harán a la base de datos. Transforma preguntas en sintaxis.
 
-El **query** tiene básicamente 2 partes: S` `ELECT`  ` y `  `FROM`  ` y puede aparecer una tercera como `  `WHERE` `.
+El **query** tiene básicamente 2 partes: ``SELECT`` y ``FROM``  y puede aparecer una tercera como ``WHERE``.
 
 * La estrellita o asterisco (*) quiere decir que vamos a seleccionar todo sin filtrar campos.
 
