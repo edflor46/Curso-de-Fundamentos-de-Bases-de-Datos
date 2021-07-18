@@ -994,3 +994,7 @@ Debe servir para guardar datos por un largo periodo de tiempo y estos datos se d
 
 ## Data Mining
 El ``Data Mining`` se dedica a minar datos, a extraerlos de donde sea que estén (archivos muertos, base de datos actual, etc…) y hacer sentido de ellos para darles un uso.
+
+## ETL
+``ETL`` son las siglas de ``Extract``, ``Transform``, ``Load`` (``extraer``, ``transformar`` y ``cargar``). Se trata de tomar datos de archivos muertos y convertirlos en algo que sea de utilidad para el negocio.
+También ayuda a tomar los datos vivos de la aplicación, transformarlos y guardarlos en un data warehouse periódicamente.
