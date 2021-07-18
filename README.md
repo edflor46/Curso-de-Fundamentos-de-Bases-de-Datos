@@ -771,3 +771,18 @@ UNION
 </pre>
 
 ![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626582280/Academia-Java.-CDMX/Fundamentos-Base-Datos/where_3_ducai0.png)
+
+## Group By
+GROUP BY tiene que ver con agrupación. Indica a la base de datos qué criterios debe tener en cuenta para agrupar.
+<pre>
+
+    <code>
+    /*Group BY*/
+SELECT estatus, count(*) post_quantity FROM posts GROUP BY estatus;
+    </code>
+
+</pre>
+
+![right_join](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626583478/Academia-Java.-CDMX/Fundamentos-Base-Datos/group_by_lhmff8.png)
+
+

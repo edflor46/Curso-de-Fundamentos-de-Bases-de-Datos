@@ -64,5 +64,8 @@ WHERE	usuario_id IS NOT NULL;
 SELECT	*
 FROM		posts
 WHERE	usuario_id IS NULL;
+
+/*Group BY*/
+SELECT estatus, count(*) post_quantity FROM posts GROUP BY estatus;
     
 
