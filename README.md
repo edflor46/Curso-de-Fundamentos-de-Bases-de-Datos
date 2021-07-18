@@ -297,3 +297,46 @@ ADD CONSTRAINT `posts_categorias`
   ON UPDATE NO ACTION;
     </code>
 </pre>
+
+<pre>
+    <code>
+           /*crear tabla pibote etiqueta*/
+CREATE TABLE `blog`.`posts_etiquetas` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `posts_id` INT NOT NULL,
+  `etiquetas_id` INT NOT NULL,
+  PRIMARY KEY (`id`));
+    </code>
+</pre>
+
+<pre>
+    <code>
+            /*Foreign key postEtiquetas - posts*/
+
+ALTER TABLE `blog`.`posts_etiquetas` 
+ADD INDEX `postsetiquetas_posts_idx` (`posts_id` ASC) VISIBLE;
+
+ALTER TABLE `blog`.`posts_etiquetas` 
+ADD CONSTRAINT `postsetiquetas_posts`
+  FOREIGN KEY (`posts_id`)
+  REFERENCES `blog`.`posts` (`id`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+    </code>
+</pre>
+
+<pre>
+    <code>
+             /*Foreign key postEtiquetas - etiquetas*/
+ALTER TABLE `blog`.`posts_etiquetas` 
+ADD INDEX `postsetiquetas_etiquetas_idx` (`etiquetas_id` ASC) VISIBLE;
+
+ALTER TABLE `blog`.`posts_etiquetas` 
+ADD CONSTRAINT `postsetiquetas_etiquetas`
+  FOREIGN KEY (`etiquetas_id`)
+  REFERENCES `blog`.`etiquetas` (`id`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+    </code>
+</pre>
+
