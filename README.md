@@ -950,3 +950,29 @@ Tipos de bases de datos no relacionales:
 - ``En memoria: ``Pueden ser de estructura variada, pero su ventaja radica en la velocidad, ya que al vivir en memoria la extracción de datos es casi inmediata. Ejemplos: **Memcached**, **Redis**.
 
 - ``Optimizadas para búsquedas: ``Pueden ser de diversas estructuras, su ventaja radica en que se pueden hacer queries y búsquedas complejas de manera sencilla. Ejemplos: **BigQuery**, **Elasticsearch.**
+
+## Top level collection con Firebase
+El modelo de bases de datos no relacionales es un poco más cercano al mundo real en su comportamiento.
+
+Las top level collections son las colecciones que se tienen de inmediato o entrada en el proyecto.
+``Firebase`` es un servicio que tiene múltiples opciones y está pensado principalmente para ``aplicaciones móviles`` y ``web``.
+
+Tipos de datos en Firestore:
+
+- ``String:`` Cualquier tipo de valor alfanumérico
+
+- ``Number:`` Soporta enteros y flotantes.
+
+- ``Boolenan:`` Los clásicos valores True y False
+
+- ``Map:`` Permite agregar un documento dentro de otro.
+
+- ``Array:`` Permite agregar un conjunto de datos (soporte multi type) sin nombre e identificador.
+
+- ``Null:`` Indica que no se ha definido un valor.
+
+- ``Timestamp:`` Permite almacenar fechas (guarda el año, mes, día y hora).
+
+- ``Geopoint:`` Guarda una localización geográfica (coordenadas latitud-longitud).
+
+- ``Reference:`` Permite referencia un documento (relaciona dos documentos, no importa su colección).
