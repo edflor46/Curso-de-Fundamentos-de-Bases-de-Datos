@@ -987,3 +987,7 @@ Si tienes una entidad separada que vas a referenciar desde muchos lugares es rec
 ## Big Data
 **Big Data** es un concepto que nace de la necesidad de manejar grandes cantidades de datos. La tendencia comenzó con compañías como YouTube al tener la necesidad de guardar y consultar mucha información de manera rápida.
 Es un gran movimiento que consiste en el uso de diferentes tipos de bases de datos.
+
+## Data Warehouse
+``Data Warehouse`` trata de guardar cantidades masivas de datos para la posteridad. Allí se guarda todo lo que no está viviendo en la aplicación pero es necesario tenerlo.
+Debe servir para guardar datos por un largo periodo de tiempo y estos datos se deben poder usar para poder encontrar cuestiones interesantes para el negocio.
