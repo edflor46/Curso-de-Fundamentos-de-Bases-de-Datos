@@ -465,3 +465,38 @@ INSERT INTO `etiquetas` (`id`,`nombre_etiqueta`) VALUES
 (20,'Estilo');
     </code>
 </pre>
+
+## SELECT posts
+
+<pre>
+    <code>
+       -- ALL
+SELECT * FROM posts;
+    </code>
+</pre>
+
+![select_all](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626580049/Academia-Java.-CDMX/Fundamentos-Base-Datos/select_all_aeupoq.png)
+
+<pre>
+    <code>
+      -- SELECT especific
+SELECT titulo, fecha_publicacion, estatus FROM posts;
+    </code>
+</pre>
+![select_alias](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626579911/Academia-Java.-CDMX/Fundamentos-Base-Datos/alias_select_dzmgao.png)
+
+<pre>
+    <code>
+     -- Alias
+SELECT titulo AS encabezado, titulo, fecha_publicacion, estatus FROM posts;
+    </code>
+</pre>
+![select_all](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626580177/Academia-Java.-CDMX/Fundamentos-Base-Datos/alias2_tefi1a.png)
+
+<pre>
+    <code>
+  -- Count
+SELECT COUNT(*) AS numero_posts FROM posts;
+    </code>
+</pre>
+![select_count](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626579907/Academia-Java.-CDMX/Fundamentos-Base-Datos/count_txicmr.png)
