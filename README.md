@@ -340,3 +340,32 @@ ADD CONSTRAINT `postsetiquetas_etiquetas`
     </code>
 </pre>
 
+## Estructura básica de un Query
+Los **queries** son la forma en la que estructuramos las preguntas que se harán a la base de datos. Transforma preguntas en sintaxis.
+
+El **query** tiene básicamente 2 partes: S``ELECT`` y ``FROM`` y puede aparecer una tercera como ``WHERE``.
+
+- La estrellita o asterisco (*) quiere decir que vamos a seleccionar todo sin filtrar campos.
+
+<pre>
+    <code>
+        SELECT * FROM posts WHERE fecha_publicacion = '2024'
+    </code>
+</pre>
+
+## SELECT
+
+**SELECT** se encarga de proyectar o mostrar datos.
+
+- El nombre de las columnas o campos que estamos consultando puede ser cambiado utilizando AS después del nombre del campo y poniendo el nuevo que queremos tener:
+
+<pre>
+    <code>
+    SELECT titulo AS encabezado FROM posts;</code>
+</pre>
+
+- Existe una función de SELECT para poder contar la cantidad de registros. Esa información (un número) será el resultado del query:
+<pre>
+    <code>
+    SELECT COUNT(*)FROM posts;</code>
+</pre>
