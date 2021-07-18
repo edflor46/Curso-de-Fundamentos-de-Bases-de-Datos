@@ -1012,3 +1012,6 @@ Tiene dos casos de uso particulares:
 
 1. Clasificación
 1. Predicción
+
+## Data Science
+``Data Science`` es aplicar todas las técnicas de procesamiento de datos. En su manera más pura tiene que ver con gente con un background de estadísticas y ciencias duras.
