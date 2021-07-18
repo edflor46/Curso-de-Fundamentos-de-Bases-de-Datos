@@ -816,3 +816,14 @@ La sentencia ``ORDER BY`` tiene que ver con el ordenamiento de los datos dependi
 </pre>
 
 ![img](https://res.cloudinary.com/dvhl6xkqf/image/upload/v1626584134/Academia-Java.-CDMX/Fundamentos-Base-Datos/order_2_zpepwt.png)
+
+## ¿Cómo convertir una pregunta en un query SQL?
+
+**De pregunta a Query**
+
+- ``SELECT:`` Lo que quieres mostrar
+- ``FROM:`` De dónde voy a tomar los datos
+- ``WHERE:`` Los filtros de los datos que quieres mostrar
+- ``GROUP BY:`` Los rubros por los que me interesa agrupar la información
+- ``ORDER BY:`` El orden en que quiero presentar mi información
+- ``HAVING:`` Los filtros que quiero que mis datos agrupados tengan
